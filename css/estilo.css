@@ -1,0 +1,108 @@
+/* Estrutura do site
+------------------------------------ */
+body {
+	background: #bbd9f1 url(../img/fundo.png) repeat-x;
+	font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+
+#container {
+	margin: 0 auto;
+}
+
+a:link, a:active, a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #1938e9;
+}
+
+/* Logo 
+------------------------------------ */
+
+
+/* Barra de navegação 
+------------------------------------ */
+
+nav ul li a:link {
+	text-transform: uppercase;
+}
+
+/* Principal 
+------------------------------------ */
+section#visita {
+	background: #708090;
+}
+
+section#galeria a {
+	background: url(../img/fundo-foto.png) no-repeat;
+	float: left;
+	padding: 17px 15px 17px 15px;
+	margin: 10px 0 0 20px;
+}
+
+section#postagens a{
+	color: #004492;
+}
+
+section#postagens a:hover{
+	color: #ffffff;
+	padding: 5px;
+}
+
+section#fotos {
+	float: left;
+}
+
+section#fotos a {
+	display: block;
+	float: left;
+	padding: 17px 15px 17px 15px;
+	margin: 10px 0 0 20px;
+	box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.8);
+	border-radius: 20px ;
+	background-color: rgb(183, 208, 255);
+}
+
+section#fotos a:hover{
+	padding: 17px 15px 17px 15px;
+	background-color: rgb(40, 158, 255);
+}
+
+h4 {
+	color: #004492;
+	text-transform: uppercase;
+	padding-bottom: 3px;
+	margin-bottom: 0;
+}
+
+/* Formulários
+------------------------------------ */
+input {
+	height: 20px;
+	width: 80px;
+	background: #fff;
+	border: none;
+	font-size: 1em;
+}
+
+input.botao {
+	background: #005a8f;
+	color: white;
+	width: 100%;
+	height: 40px;
+	font-size: 1.2em;
+}
+
+input.botao:hover{
+	background: #1938e9;
+}
+
+fieldset {
+	border: none;
+}
+
+legend {
+	display: none;
+}
